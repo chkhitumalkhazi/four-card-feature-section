@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    --Font-size: 15px;
+    --Font-Family: 'Poppins', sans-serif;
+}
+body{
+    font-family: var(--Font-Family);
+    background-color: var(--Very-Light-Gray);
+    width: 100vw;
+    overflow-x: hidden;
+}
+.main-container-one{
+    display: grid;
+    place-items: center;
+}
+.first-text{
+    font-size: 40px;
+    font-weight: 200;
+}
+.second-text{
+    font-size: 40px;
+    color: var(--Very-Dark-Blue);
+    font-weight: 700;
+    margin-top: -20px;
+}
+.third-text{
+    font-size: 14px;
+    width: 700px;
+    text-align: center;
+    color: var(--Grayish-Blue);
+    width: 500px;
+}
+.main-container-two{
+    display: grid;
+    place-items: center;
+}
+.container-one{
+    margin-top: 200px;
+    margin-left: -780px;
+    border-top: 5px  var(--Cyan) solid;
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 25px 50px -40px;
+}
+.text-one{
+    font-size: 20px;
+    color: var(--Very-Dark-Blue);
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.mini-text-one{
+    color: var(--Grayish-Blue);
+    margin-left: 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 300px;
+}
+.image-one{
+    display: flex;
+    align-items: end;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.icon-supervisor{
+    width: 80px;
+    margin-left: -100px;
+}
+.container-two{
+    border-top: 5px  var(--Red) solid;
+    border-radius: 10px;
+    display: flex;
+    margin-top: -530px;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 25px 50px -40px;
+}
+.text-two{
+    font-size: 20px;
+    color: var(--Very-Dark-Blue);
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.mini-text-two{
+    color: var(--Grayish-Blue);
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 300px;
+}
+.image-two{
+    display: flex;
+    align-items: end;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.icon-team-builder{
+    width: 80px;
+    margin-left: -100px;
+    margin-bottom: -20px;
+}
+.container-three{
+    background-color: white;
+    margin-top: -100px;
+    display: flex;
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 25px 50px -40px;
+    border-top: 5px var(--Orange) solid;
+    border-radius: 10px;
+}
+.text-three{
+    font-size: 20px;
+    color: var(--Very-Dark-Blue);
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.mini-text-three{
+    color: var(--Grayish-Blue);
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 300px;
+}
+.image-three{
+    display: flex;
+    align-items: end;
+    margin-bottom: 40px;
+    margin-left: -90px;
+}
+.icon-karma{
+    width: 80px;
+}
+.container-four{
+    display: flex;
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 25px 50px -40px;
+    border-top: 5px var(--Blue) solid;
+    border-radius: 10px;
+    margin-left: 780px;
+    margin-top: -550px;
+}
+.text-four{
+    font-size: 20px;
+    color: var(--Very-Dark-Blue);
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.mini-text-four{
+    color: var(--Grayish-Blue);
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 300px; 
+}
+.image-four{
+    display: flex;
+    align-items: end;
+    margin-bottom: 40px;
+    margin-left: -90px;
+}
+@media(max-width:500px){
+    .main-container-one{
+        margin-left: 300px;
+    }
+    .first-text{
+        width: 800px;
+        font-size: 50px;
+        margin-right: 200px;
+        font-weight: 200;
+    }
+    .second-text{
+        width: 800px;
+        font-size: 50px;
+        font-weight: 700;
+        margin-right: 200px;
+    }
+    .third-text{
+        font-size: 24px;
+        text-align: center;
+        color: var(--Grayish-Blue);
+        width: 500px;
+        margin-right: 400px;
+    }
+    .main-container-two{
+        margin-left: 300px;
+    }
+    .container-one{
+        width: 400px;
+        height: 300px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .text-one{
+        font-size: 30px;
+    }
+    .mini-text-one{
+        font-size: 20px;
+    }
+    .icon-supervisor{
+        width: 100px;
+        margin-left: -80px;
+    }
+    .container-two{
+        width: 400px;
+        height: 300px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .text-two{
+        font-size: 30px;
+    }
+    .mini-text-two{
+        font-size: 20px;
+    }
+    .icon-team-builder{
+        width: 100px;
+        margin-left: -80px;
+    }
+    .container-three{
+        width: 400px;
+        height: 300px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .text-three{
+        font-size: 30px;
+    }
+    .mini-text-three{
+        font-size: 20px;
+    }
+    .icon-karma{
+        width: 100px;
+        margin-left: 20px;
+    }
+    .container-four{
+        width: 400px;
+        height: 300px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .text-four{
+        font-size: 30px;
+    }
+    .mini-text-four{
+        font-size: 20px;
+    }
+    .icon-calculator{
+        width: 100px;
+        margin-left: 20px;
+    }
+}
